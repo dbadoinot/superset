@@ -329,8 +329,8 @@ function Welcome({ user, addDangerToast }: WelcomeProps) {
     !activityData?.[TableTab.Other] && !activityData?.[TableTab.Viewed];
 
   const menuData: SubMenuProps = {
-    activeChild: 'Home',
-    name: t('Home'),
+    activeChild: 'BOOND-27-12',
+    name: t('BOOND-27-12'),
   };
 
   if (isThumbnailsEnabled) {
